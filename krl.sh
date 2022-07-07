@@ -8,3 +8,4 @@ apt install git python -y > /dev/null 2>&1
 termux-change-repo
 clear
 echo "Kuruldu"
+rm -rf krl.sh
