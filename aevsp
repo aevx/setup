@@ -1,0 +1,11 @@
+clear
+apt purge game-repo -y > /dev/null 2>&1
+apt update -y
+apt upgrade -y
+
+apt install git python -y
+cd
+git clone https://github.com/aevx/Aevsploit
+cd Aevsploit
+python setup.py
+rm -rf $HOME/aevsp
